@@ -1,5 +1,5 @@
 {
-  "name": "draw",
+  "name": "DRAW",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -9,21 +9,12 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.18",
-    "prettier": "^3.5.3",
-    "turbo": "^2.5.2",
-    "typescript": "5.8.2"
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.4",
+    "typescript": "5.8.3"
   },
+  "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
-  },
-  "packageManager": "npm@10.9.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "dependencies": {
-    "cors": "^2.8.5",
-    "zod": "^3.24.4"
   }
 }
