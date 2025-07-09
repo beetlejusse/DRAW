@@ -9,9 +9,11 @@
     "./config": "./src/index.ts"
   },
   "dependencies": {
-    "@repo/typescript-config": "workspace:*",
-    "@types/dotenv": "^8.2.3",
     "dotenv": "^17.1.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.15.3"
   },
   "keywords": [],
   "author": "",
